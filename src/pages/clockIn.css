@@ -1,0 +1,151 @@
+h1{ /*Name of the app*/
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.color{
+  color: black;
+}
+
+.top{ /*Name of the app*/
+  height: 70px;
+  background-color: rgb(126, 176, 252);  
+  width: 100%;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.active{ /*Tells which tab you are on*/
+  background-color:rgb(82, 82, 82)
+}
+
+.nav{ /*navigation*/
+  float: left;
+}
+
+.top-nav { /*navigation - Idk how I ended up with 2*/
+  list-style-type: none;
+  margin:0;
+  overflow: hidden;
+  background-color:rgb(151, 170, 197);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 70px;
+}
+
+.top-nav a{ /*navigation tabs*/
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 13px 40px;
+  text-decoration:none;
+  display: block;
+  font-size: 1.2rem;
+  border-right: 1px solid white;
+}
+
+.top-nav a:hover{ /*navigation tabs*/
+  color:pink;
+  background-color: rgb(105, 126, 156);
+}
+
+.top-nav a:active{ /*when tab is clicked*/
+  color:white;
+}
+
+/*
+.top-nav a:visited{ 
+  color:grey;
+}
+*/
+
+.logo-container{ /*centers the image in a container in /clock */
+  width: 100%;
+  height: 100px; /*same as logo */
+  text-align: center;
+  border: px solid grey;
+  margin: 5px 0px 5px 0px;
+}
+
+.proj-input { /*makes the input boxes round and pretty in /clock */
+  height: 2.5rem;
+  width: 80%;
+  margin: auto;
+  border: 2px solid grey;
+  background-color:white;
+  border-radius: 2rem;
+  padding: 0 1rem 0 1rem;
+  box-sizing: border-box;
+}
+
+.clock-input { /*makes the input boxes round and pretty in /clock */
+  height: 2rem;
+  width: auto;
+  margin: auto;
+  border: 2px solid grey;
+  background-color:white;
+  border-radius: 2rem;
+  padding: 0 1rem 0 1rem;
+  box-sizing: border-box;
+}
+
+.project-container{ /* /clock */
+  float:left;
+  width: 50%;
+  height: 27%;
+  padding: 15px; 
+  border: px solid #ccc;
+  box-sizing:border-box;
+  margin-bottom: 20px;
+}
+
+.time-container { /* /clock */
+  float:left;
+  width: 50%;
+  height: 5rem;
+  border: px solid #ccc;
+  padding: 15px; 
+  box-sizing:border-box;
+  padding-left: 1rem;
+}
+
+.total-time-container { /* /clock */
+  float:left;
+  width: 100%;
+  height: 30rem;
+  border: px solid #ccc;
+  padding:5px; 
+  box-sizing:border-box;
+  padding-left: 1rem;
+  text-align: center;
+}
+
+.times-container{ /* /timeSheet */
+  width: 100%;
+  border: px solid #ccc;
+
+
+}
+
+  .title {
+    text-align: center;
+    margin: 30;
+    width: auto;
+    height: auto;    /* changed from 15% so that it minimizes nicely */
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   /*  color:rgb(126, 176, 252); */
+  }
+
+  .subtitle {
+    text-align: center;
+    margin: 3%;
+    height: 10%;
+   /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    color:rgb(82, 82, 82);
+  }
+
+  body{
+    background-color:rgb(240, 236, 236);
+  }
+  
